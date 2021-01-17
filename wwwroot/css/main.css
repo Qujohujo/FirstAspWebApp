@@ -1,0 +1,29 @@
+﻿body {
+    background-image: url(../img/T0Mw3xx.jpg);
+    margin: auto;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ol{
+    margin: auto;
+    width: 25%;
+}
+
+img{
+    display:block;
+    margin:auto;
+    width:40%;
+}
+
+h1{
+    text-align:center;
+}
+
+.mainDiv {
+    border: solid;
+    padding: 10px;
+    box-shadow: 5px 5px;
+    background-color: #f2f2f2;
+}
