@@ -8,7 +8,7 @@
     let fFinalGrade = 0;
     let sLetterGrade = '';
     fFinalGrade = (fAssignment * 0.5) + (fProject * 0.1) + (fQuiz * 0.1) + (fExam * 0.2) + (fIntex * 0.1);
-    fFinalGrade = +fFinalGrade.toFixed(2)
+    fFinalGrade = +fFinalGrade.toFixed(2);
 
 
     //calculate letter grade from overall percentage
@@ -50,5 +50,5 @@
     }
 
     //print results to the html dom
-    document.getElementById('outputGrade').innerHTML = 'Your final grade is ' + fFinalGrade + '. You received: ' + sLetterGrade + '.'
+    document.getElementById('outputGrade').innerHTML = 'Your final grade is ' + fFinalGrade + '. You received: ' + sLetterGrade + '.';
 }
