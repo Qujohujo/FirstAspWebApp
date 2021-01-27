@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link rel="icon" href="~/img/QuinnSmall.jpg">
+    <link rel="stylesheet" href="~/css/main.css">
+</head>
+<body>
+
+    <!--Layout div with all styling-->
+    <br>
+    <div class="mainDiv">
+        <header>
+            <h1>@ViewBag.Header</h1>
+            <menu>
+                <ul>
+                    <li><a asp-controller="New" asp-action="Index">Home</a></li>
+                    <li><a asp-controller="New" asp-action="GradeCalculator">Grade Calculator</a></li>
+                </ul>
+            </menu>
+        </header>
+
+        @RenderBody()
+
+    </div>
+    <br>
+
+
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/function.js"></script>
+</body>
+</html>
